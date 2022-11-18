@@ -7,44 +7,44 @@ function addTwoNumbers(number1, number2){
 
 console.log(addTwoNumbers(4, 5));
 
-function sayHi(){
-    let usersName = prompt("What is your name?");
-    if (usersName == ""){
-        alert("You didn't type your name");
-        usersName = prompt("Please tell me your name.");
+function sayWhatsUp(){
+    let usersMood = prompt("What is up with you?");
+    while (usersMood.length === 0){
+        alert("You didn't explain how you're doing.");
+        usersMood = prompt("Please tell me how you're doing.");
     }
-    console.log("This user's name is: " + usersName);
-    document.write("Hello and welcome to my page, " + usersName);
-    return usersName;
+    console.log("This user's mood is: " + usersMood);
+    document.write("Glad to know you are doing " + usersMood);
+    return usersMood;
 
 }
 
-let usersName = sayHi();
+// let usersName = sayHi();
 
-consloe.log(usersName);
+// console.log(usersMood);
 
 alert("lorem ipsum");
 
-function enterName() {
-    let userName = prompt("What is your name?");
-    document.write("Hello" + userName);
-    return userName;
-}
+// function enterName() {
+//     let userName = prompt("What is your name?");
+//     document.write("Hello" + userName);
+//     return userName;
+// }
 
-function math(){
-    let x = 80;
-    let y = 340;
-    let sum = x + y
-    document.write(sum + "blaze it");
-    return sum;
+// function math(){
+//     let x = 80;
+//     let y = 340;
+//     let sum = x + y
+//     document.write(sum + "blaze it");
+//     return sum;
 
-}
+// }
 
-let myNum = math()
+// let myNum = math()
 
-function rateMyPage() {
-    let rating = prompt ("How many stars woudl you rate my page?");
-    for (let i = 0; i< rating; i++){
-        document.write("<img src='star.jpg' alt='shiny gold star' img class='rating-pic">)
-    }
-}
+// function rateMyPage() {
+//     let rating = prompt ("How many stars woudl you rate my page?");
+//     for (let i = 0; i< rating; i++){
+//         document.write("<img src='star.jpg' alt='shiny gold star' img class='rating-pic">)
+//     }
+// }
