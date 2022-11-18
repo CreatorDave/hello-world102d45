@@ -1,0 +1,30 @@
+/* selector {
+    property: value;
+} */
+
+body {
+    background-color: red;
+}
+
+head {
+    font-size: large;
+    font-style: italic;
+}
+
+header {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant-caps: all-petite-caps;
+}
+
+#first {
+    align-content: center;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.second {
+    align-content: center;
+    text-align: center;
+    background-color: khaki;
+}
