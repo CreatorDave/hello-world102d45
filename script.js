@@ -19,6 +19,8 @@ function sayWhatsUp(){
 
 }
 
+
+
 // let usersName = sayHi();
 
 // console.log(usersMood);
@@ -48,3 +50,10 @@ alert("lorem ipsum");
 //         document.write("<img src='star.jpg' alt='shiny gold star' img class='rating-pic">)
 //     }
 // }
+let usersAnswer = prompt("How many planes do you want?");
+
+for (let i = 0; i < usersAnswer; i++){
+    document.write("<img src='https://images.unsplash.com/photo-1604257205713-4dcf07068efe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'>");
+    
+ 
+}
